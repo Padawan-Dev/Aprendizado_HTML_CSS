@@ -1,4 +1,4 @@
-  img{
+/* img{
      width: 200px;
      }
 
@@ -8,4 +8,15 @@
   
   .texto {
       color: red;
-  }
+  }*/
+
+body {
+  margin: 0px;
+}
+.exemplo {
+  border: 1px solid greenyellow;
+  padding: 20px;
+}
+hr {
+    margin: 0px;
+}

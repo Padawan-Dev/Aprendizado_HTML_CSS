@@ -1,0 +1,35 @@
+Aula 9 - Margins e Padding no CSS
+
+- Arquivo style.css comentado para nao estilizar a pagina.
+- Criado DIVs no arquivo HTML e inserido CLASS 
+
+- Todo elemento terá 04 propriedades (Conteudo, Border , Padding, Margin)
+- As propriedades podem ser consultadas na inspeção de elemento do navegador
+Ao inspecionar o elemento, visualmente voce verá nessa ordem e dessa forma:
+
+1- Conteudo = Texto inserido
+2- Padding  = Espaçamento interno do elemento entre a Border e o Conteudo 
+3- Border   = Borda em volta do Conteudo e Padding
+4- Margin   = Espaçamento externo do elemento entre a borda do Conteudo e a pagina
+
+Exemplo: {MARGIN{Border{Padding{Conteudo}Padding}Border}MARGIN}
+
+- Mesmo se nao estiver setado nada de propriedades, este elemento ainda sim terá propriedades setadas
+por default. Exemplo do caso do elemento BODY, onde ao inspecionar vemos que por default
+esta setado 8px de margin. Isso pode ser alterado no css, incluindo o elemento BODY no arquivo
+style.css, e atribuindo a propriedade MARGIN: 0px;
+
+-Obs: A primeira coisa a se fazer ao construir um site, é zerar o Espaçamento do elemento
+BODY.
+
+-Tanto Padding como margin podem setados em um lado apenas.
+Exemplo:
+Margin ou Padding-top    = setando apenas na parte de cima do elemento
+Margin ou Padding-right  = setando apenas do lado direito
+Margin ou Padding-botomm = setando apenas na parte de baixo do elemento
+Margin ou Padding-left   = setando apenas do lado esquerdo
+
+-Pode ser setando tbm td de uma só vez, apenas em uma linha
+Exemplo:
+padding: 10px 20px 10px 20px
+obs: Lembrando que deve ser seguido a sequencia na ordem horaria(Top,Right, botomm, left)
