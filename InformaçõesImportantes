@@ -33,3 +33,20 @@ Margin ou Padding-left   = setando apenas do lado esquerdo
 Exemplo:
 padding: 10px 20px 10px 20px
 obs: Lembrando que deve ser seguido a sequencia na ordem horaria(Top,Right, botomm, left)
+----------------------------------------------------------------------
+Aula 10 - Informações importantes sobre Width e height no CSS
+
+-Definimos a altura(height) e largura(Width) dos elementos com estas propriedades
+-POdemos setar esses parâmetros com valores em PX(pixel), %(porcentagem), CM(centímetros)
+e outros...
+-Caso defina o valor como AUTO, sera usado o espaço disponivel para este ele.
+- Alguns elementos já vem com valores AUTO setados por default.Como o e DIV.
+- No caso do elemento IMG, se setar o valor da propriedade Width com AUTO, sera definido
+a largura default da imagem
+-Pode ser setado o tamanho/altura maximo e minimo de um elemento.Exemplo:
+max-Width
+min-Width
+max-height
+min-height
+-Obs: quando setado a propriedade do elemento com o min-xxxx, mesmo que setado manualmente
+com Width: xxxx, a prioridade será do min-xxxx.
