@@ -60,5 +60,14 @@ Aula 11 - Dicas sobre Width e height
 
 }
 -Obs: O asterisco diz que se aplicaa todo elemento da pagina.
+---------------------------------------------------------------------
+Aula 12  - links 1/2
+
+-"target" é usado quando queremos que a pagina seja aberta em outra aba.Exemplo:
+
+   <a href="https://www.google.com.br" target="_blank">Aqui voce será adicionado ao site do google</a>
+
+- Essa propriedade é usada quando queremos que seja acessada uma pagina externa e assim o cliente
+nao abandona nosso site.
 
 
