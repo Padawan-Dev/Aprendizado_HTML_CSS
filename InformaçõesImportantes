@@ -50,3 +50,15 @@ max-height
 min-height
 -Obs: quando setado a propriedade do elemento com o min-xxxx, mesmo que setado manualmente
 com Width: xxxx, a prioridade será do min-xxxx.
+--------------------------------------------------------------------
+Aula 11 - Dicas sobre Width e height
+
+-Todo inicio de um site é setado com o (box-sizing: border-box;) como abaixo:
+
+* {
+    box-sizing: border-box;
+
+}
+-Obs: O asterisco diz que se aplicaa todo elemento da pagina.
+
+
