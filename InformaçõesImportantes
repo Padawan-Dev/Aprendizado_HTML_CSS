@@ -69,5 +69,26 @@ Aula 12  - links 1/2
 
 - Essa propriedade é usada quando queremos que seja acessada uma pagina externa e assim o cliente
 nao abandona nosso site.
+----------------------------------------------------------------
+Aula 13 - Links 2/2
 
+-POdemos tbm criar links com imagem, nao necessariamente apenas texto como nos exemplos anteriores.
+-Td que tiver entre a TAG "A"(<a>xxxxx</a>), será linkado.
+-Quando quisermos direcionar a pagina para uma determinada area, usamos o elemento H2 e 
+dentro da abertura de tag inserimos a propriedade ID.Dentro do link, na propriedade HREF do
+elemento A, inserimos o valor do ID no elemento H2.Exemplo:
+
+<a href="#area7">Ir para area 7</a>
+x
+X
+X
+-<h2 id="area7">Area 7</h2> 
+   <img src="https://www.google.com.br/google.jpg"/>
+
+-POdemos estilisar a tag A com CLASS.Como feito na linha 68.
+-existe a possibilidade de estilisar o link ao passar do mouse sobre ele usando a CLASS
+.link:hover{
+    
+}
+Por padrao ficará verde, mas ao passar o mouse sobre o link mudará de estilo.
 
