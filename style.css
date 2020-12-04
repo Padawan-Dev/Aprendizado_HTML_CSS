@@ -24,15 +24,35 @@ body {
     box-sizing: border-box;
 
 }
+/**
 .link {
   color: green;
   font-size: 30px;
 
 }
-.link:hover{
-    color: red;
+.link:hover{            
+    color: red;  *Ao passar mouse sobre o link, ele muda de cor para RED*
+    
 
 }
-.link:visited{
-    color: pink;
+.link:visited{      *Link mudar de cor após ser visitado*  
+    color: pink;    
+} */
+p {
+    color: blue;
+    font-size: 30px;
+    /*font-weight: bold;*/
+    font-family: 'Chilanka', cursive;  /*Fonte adicionada do google fontes*/
+    text-align: left;
+  }
+/*
+
+a {
+    text-decoration: none; *Tira o sublinhado do link*
 }
+
+a:hover {                     *Ao passar o mouse no link, este fica sublinhado* 
+    text-decoration: underline;
+}
+*/
+

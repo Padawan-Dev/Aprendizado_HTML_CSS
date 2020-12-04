@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8" />
      <title>Pagina de teste</title>
+     <link rel="preconnect" href="https://fonts.gstatic.com">
+     <link href="https://fonts.googleapis.com/css2?family=Chilanka&display=swap" rel="stylesheet">
      <link rel="stylesheet" href="style.css">
      </head>
 <body>
@@ -35,6 +37,10 @@
  <h2 class="texto">Lista de ingredientes de bolo:</h2>
  <ol>
      <li>Farinha</li>
+                <ol>
+                    <li>Integral</li>
+                    <li>Comun</li>
+                </ol>
      <li>Ovo</li>
      <li>leite</li>
      <li>manteiga</li>
@@ -75,6 +81,33 @@
     <br/>SUP(suspende a letra),DEL(coloca uma linha no meio), tag I e tag EM(ambas com o mesmo efeito)
     <br/>porem a EM com semantica de importancia, tag SMAll(fica menor, usada para uma descrição
     <br/>)
+    <hr/>
+    <table width="400" border="1">
+       <thead><!--T = tabela e head = cabeça-->
+            <tr>
+            <th>Item 1</th><!--Criando titulo para coluna. h = HEAD-->
+            <th>Item 2</th>
+        </tr>
+       </thead>
+       <tbody><!--t=tabela e body=corpo-->
+            <tr><!--linhas da tabela-->
+            <td>...</td><!--Criando coluna-->
+            <td>...</td>
+        </tr>
+        <tr>
+            <td>...</td>
+            <td>...</td>
+            
+        </tr>
+        <tr>
+            <td>...</td>
+            <td>...</td>
+        </tr>
+
+       </tbody>
+        
+
+    </table>
 
 </body>
 </html>
