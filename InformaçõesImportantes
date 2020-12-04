@@ -91,4 +91,9 @@ X
     
 }
 Por padrao ficará verde, mas ao passar o mouse sobre o link mudará de estilo.
+-------------------------------------------------------
+Aula 15 - Comentários no HTML
+- Para se comentar algo no HTML fazemos dessa forma.Exemplo:
+<!--Comentário qualquer-->
+- O mais usual é colocar o Comentário antes da TAG que vc quer comentar.
 
