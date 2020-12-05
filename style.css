@@ -56,3 +56,19 @@ a:hover {                     *Ao passar o mouse no link, este fica sublinhado*
 }
 */
 
+table {
+        width: 600px;
+}
+table thead {
+    background-color: #ccc;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+tbody tr:hover {
+    background-color: #eee;
+}
+tbody tr:nth-child(even) {
+    background-color: #eee;
+}
