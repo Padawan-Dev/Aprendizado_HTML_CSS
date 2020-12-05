@@ -110,9 +110,14 @@
     </table>
     <hr/>
     <h2> Area de cadastro </h2>
-    <form action="login.html" method="POST"> <!--Após ser digitado os dados, td será direcionado a esta pagina*-->
+    <form action="login.html" method="GET"> <!--Após ser digitado os dados, td será direcionado a esta pagina*-->
     <!--method= GET , envia informações na URL/method = POST, envia informações internamente-->
-
+    <input type="text" name="usuario"/><input type="submit"/>
+    <input type="password"/>
+    <input type="checkbox"/></br>
+    <input type="radio" name="sexo"/>
+    <input type="radio" name="sexo"/><!--O type radio funciona sempre em pares com o mesmo name-->
+    <input type="submit"/><!--botão de enviar dados.Por padrão ja vem com nome "enviar"-->
 
     </form>
     <h2> Area de login </h2>
