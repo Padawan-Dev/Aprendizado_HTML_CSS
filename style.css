@@ -72,3 +72,24 @@ tbody tr:hover {
 tbody tr:nth-child(even) {
     background-color: #eee;
 }
+.teste {            /*propriedades padroes da DIV teste*/
+    width: 600px;
+    height: 300px;
+    background-color: red;
+}   
+
+/*
+@media only screen and (max-width:500px) {  *qdo a largura da tela tiver no max 500px,alterar
+    para as propriedades abaixo* 
+    .teste {
+        background-color: green;
+    }
+    
+
+} */
+
+@media only screen and (max-width:500px) { /*qdo a largura da tela tiver no max 600px, alterar
+o tamanho da DIV para 200px, conforme abaixo*/
+    .teste {
+        width: 200px;
+    }
