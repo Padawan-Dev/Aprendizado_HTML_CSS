@@ -14,12 +14,12 @@
 <div class="rodape"></div>
 -->
 
-<form method="POST">
+<form method="POST"><!--Aqui usamos o atributo REQUIRED para validar o formulario antes de envia -->
     Usário:<br/>
-    <input type="text" name="usuario" autofocus maxlength="8" placeholder="Digite seu usuario"/><br/><br/>
+    <input type="email" name="Email" required maxlength="4" placeholder="Seu email aqui"/><br/><br/>
 
     Senha:<br/>
-    <input type="password" name="senha" maxlength="6" placeholder="Digite sua senha"/><br/><br/>
+    <input type="password" name="senha" required maxlength="4" placeholder="Sua senha aqui"/><br/><br/>
     <input type="submit" value="Enviar"/>
 </form>
 </body>
