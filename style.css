@@ -20,10 +20,10 @@ body {
 
 
 }
-* {
+ /** {
     box-sizing: border-box;
 
-}
+}*/
 /**
 .link {
   color: green;
@@ -38,13 +38,13 @@ body {
 .link:visited{      *Link mudar de cor após ser visitado*  
     color: pink;    
 } */
-p {
+/*p {
     color: blue;
     font-size: 30px;
-    /*font-weight: bold;*/
-    font-family: 'Chilanka', cursive;  /*Fonte adicionada do google fontes*/
+    font-weight: bold;
+    font-family: 'Chilanka', cursive;  Fonte adicionada do google fonte
     text-align: left;
-  }
+  }*/
 /*
 
 a {
@@ -88,8 +88,70 @@ tbody tr:nth-child(even) {
 
 } */
 
-@media only screen and (max-width:500px) { /*qdo a largura da tela tiver no max 600px, alterar
+/*@media only screen and (max-width:500px) {*/ /*qdo a largura da tela tiver no max 600px, alterar
 o tamanho da DIV para 200px, conforme abaixo*/
-    .teste {
+    /*.teste {
         width: 200px;
+    }*/
+/*---------Aqui começa a aula 11 - Design reposivo 1-------------------------------------- */
+/*aplicando propriedades padrao do site*/
+.topo {
+    width:100%;
+    height:100px;
+    margin:auto;
+}
+.logo {
+    width:50%;
+    height:100px;
+    float:left;
+    background-color:#eee;
+}
+.menu {
+    widows:50%;;
+    height:100px;
+    float:left;
+    background-color:#ddd;
+}
+.corpo {
+    width:100%;
+    height:200px;
+    margin:auto;
+    background-color:#ccc;
+}
+.rodape {
+    width:100%;
+    height:100px;
+    margin:auto;
+    background-color:#ddd;
+}
+
+@media only screen and (min-width:500px) and (max-width: 800px) { 
+
+    .topo {
+        width: 500px;
     }
+    .corpo {
+        width: 500px;
+    }
+    .rodape {
+        width: 500px;
+    }
+}
+/*@media only screen and (max-width:500px){
+    .topo {
+        width: 300px;
+        height: 200px;
+    }
+    .logo {
+        width: 100%;
+    }
+    .menu {
+        width: 100%;
+    }
+    .corpo {
+        width: 300px;
+    }
+    .rodape {
+        width: 300px;
+    }
+}*/
