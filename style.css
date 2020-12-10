@@ -185,10 +185,15 @@ input {
     width: 200px;
     height: 200px;
     border-radius: 20px;
-    position: absolute;
-    animation-name: animacao_div_exemplo;/* Essa animação esta no topo deste arquivo*/
-    animation-duration: 4s;
-
+    /*position: absolute;
+    animation-name: animacao_div_exemplo; 
+    animation-duration: 4s; */ /* Essa animação esta no topo deste arquivo*/
+    transition: all 1s linear; /* Transição aplicada a td propriedade 'ALL', durante 1s */
     
 
 }
+/* Ao passar o mouse no elemento, muda de cor e largura no periodo de 1s*/
+#teste:hover{
+    background-color: black;
+    width: 300px;
+} 
