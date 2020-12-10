@@ -1,3 +1,12 @@
+@keyframes animacao_div_exemplo { /* Criando animação de mudança de cor e movimentação*/
+    0% {background-color: red;top: 0;left: 0;}
+    25% {background-color: yellow;top: 0;left: 200;}
+    50% {background-color: blue;top: 200;left: 200;}
+    75% {background-color: deeppink;top: 200;left: 0;}
+    100% {background-color: green;top: 0;left: 0;}
+}
+
+
 /* img{
      width: 200px;
      }
@@ -176,5 +185,10 @@ input {
     width: 200px;
     height: 200px;
     border-radius: 20px;
+    position: absolute;
+    animation-name: animacao_div_exemplo;/* Essa animação esta no topo deste arquivo*/
+    animation-duration: 4s;
+
+    
 
 }
